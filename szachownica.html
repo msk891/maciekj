@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    th {border: 2px solid rgb(0, 0, 0); padding: 10px }
+        td {border: 1px solid rgb(0, 0, 0); padding: 10px }
+        th {
+  background-color: red;
+  color: white;
+}
+td { background-color: orange;
+
+}
+tr:nth-child(even) {
+    background-color: orange;
+}
+tr:nth-child(odd){
+    background-color: yellow;
+}
+        </style>
+</head>
+<body>
+    <table>
+        <tr>
+         <th>Lp.</th>
+         <th colspan="2">Nazwisko i imię</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Osoby firma1</td>
+            <td>Kamil</td>
+            <td>Wiśniewski</td>
+        </tr>
+        <td>Zdzisiek</td>
+        <td>Baryka</td>
+        <tr>
+            <td rowspan="3">Osoby firma2</td>
+            <td>Krzysztof</td>
+            <td>Buńka</td>
+        </tr>
+        <tr>
+            <td>Człowiek</td>
+            <td>Pracy</td>
+        </tr>
+        <tr>
+            <td>Kolejny</td>
+            <td>Człowiek</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
